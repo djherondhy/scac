@@ -12,4 +12,6 @@
 * BoxIcons
 * MySQL
 
+#Project Description  :speech_balloon:
+>Personal project to build the portfolio and study ajax requests with php. The system is a CRUD control software, for animal management, allowing animal registration and other functionalities aimed at the automation of livestock processes.
 
