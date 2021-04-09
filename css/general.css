@@ -1,0 +1,271 @@
+
+.header-cards{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.header-cards .cards{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-tables{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.table-card{
+    width: 95%;
+    height: 550px;
+    box-shadow: 1px 1px 6px #ccc;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    overflow:hidden;
+}
+.table-header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 100%;
+    background: linear-gradient(-145deg,#29C9ED,#1E80EB);
+    border-radius: 6px 6px 0px 0px;
+    color: #fff;
+}
+
+.table-header button{
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 5px 10px;
+    background: #FF8600;
+    border:0px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .5s;
+}
+.table-header button:hover{
+  background:#c78214; 
+}
+
+.main-table{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.table-footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    padding: 10px;
+}
+.table-footer form{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    
+}
+
+.card1{
+    background: linear-gradient(-145deg,#6672DE,#7E66E2);
+    
+}
+
+.card2{
+    background: linear-gradient(-145deg,#29C9ED,#1E80EB);
+    transition: 1s
+}
+
+.card3{
+    background: linear-gradient(-145deg,#F13D60,#F35D42);
+    transition: 1s
+}
+.card-estoque{
+    width:98% !important;
+}
+
+.config-form{
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 6px #ccc;
+}
+.img-perfil{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto-perfil{
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.img-perfil input{
+    display: none;
+}
+.bt-perfil{
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #7E66E2;
+    box-shadow: 1px 1px 6px #ccc;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #fff;
+}
+.buttons-perfil{
+    padding: 15px;
+    color: #fff;
+    box-shadow: 1px 1px 6px #ccc;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+    font-weight: bold;
+    background: linear-gradient(-145deg,#6672DE,#7E66E2);
+    border: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bt-perfil:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.perfil-form td{
+    padding: 10px;
+    color: #7E66E2;
+}
+.perfil-form input[type="text"]{
+    width: 300px;
+    padding: 5px;
+    border: 0px;
+    border-bottom: 1px solid #7E66E2 !important;
+}
+.perfil-form p{
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.dados-perfil{
+    margin-top: 40px !important;
+}
+
+.lembrete-buttons{
+    padding: 20px;
+    width: 100%;
+
+}
+.add-lembrete{
+    background: linear-gradient(-145deg,#6672DE,#7E66E2);
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .5s;
+}
+.add-lembrete:hover{
+    padding: 12px;
+}
+.lembretes{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.lembrete-card{
+    width: 300px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    box-shadow: 6px 6px 6px #ccc;
+    margin: 10px;
+    position: relative;
+}
+.lembrete-card h3{
+    padding: 5px;
+}
+.lembrete-card p{
+    padding: 5px;
+}
+.lembrete-date{
+    font-size: 0.9rem;
+    color: #878787;
+    padding-bottom: 20px !important;
+}
+.icon-pin{
+    position: absolute;
+    color:#7E66E2; 
+    font-size: 2rem;
+    top: 0;
+    right: 0;
+    padding: 1px;
+}
+.delButton{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    padding: 5px;
+    font-size: 2rem;
+    color: #FE4A49;
+    cursor: pointer;
+}
+.modal-form .input-text{
+    padding: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 841px){
+    .header-cards{
+        flex-direction: column;
+       
+    }
+    
+    .header-cards .cards{
+        
+        flex-direction: column !important;
+       
+    }
+}
+@media (max-width: 797px){
+    .table-card{
+        width: 98%;
+    }
+    .content-tables{
+       
+        padding: 20px;
+    }
+}
+

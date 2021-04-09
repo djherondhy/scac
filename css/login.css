@@ -1,0 +1,101 @@
+@import 'reset.css';
+@import 'fonts.css';
+
+.container-login{
+    height: 100%;
+    background: #27FB6B;
+    background: linear-gradient(-135deg, #27FB6B, #28b454);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box{
+    width: 80%;
+    height: 95%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.login-pic{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.login-pic img{
+    width:90%;
+    max-width: 300px;
+}
+.login-form{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-form .form{
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    
+}
+.login-form .form h1{
+    margin-bottom: 30px;
+}
+.login-form .form .input-control{
+    width: 100%;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #E6E6E6;
+}
+.input-control input{
+    width: 90%;
+    height: 50px;
+    background: none;
+    border: 0px;
+
+}
+.submit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.submit input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    background: linear-gradient(-135deg,#11a03e,#27FB6B);
+}
+.pass-forget{margin-top: 10px;}
+.pass-forget a{
+
+    color: rgb(32, 30, 30);
+    text-decoration: none;
+
+}
+@media (max-width: 721px){
+    .login-pic{
+        display:none;
+    }
+    .login-form{
+        width: 100%;
+    }
+}
+@media (max-width: 451px){
+    .login-box{
+        width: 95%;
+    }
+}

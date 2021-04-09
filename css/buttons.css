@@ -1,0 +1,46 @@
+.busca-button{
+    font-size: 1.5rem;
+    padding: 5px 7px;
+    background: linear-gradient(-145deg,#29C9ED,#1E80EB);
+    border: 0px solid;
+    border-radius: 6px;
+    color: #fff;
+   
+}
+
+.bt-action{
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 0px;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+    margin: 2px;
+}
+.bt-action a{
+    color: #fff;
+}
+
+.bt-del{
+    background: #FE4A49;
+    transition: .5s ease-out;
+}
+.bt-del:hover{
+    background: #b82a2a;
+}
+
+.bt-edit{
+    background: #2AB7CA;
+    transition: .5s ease-out;
+}
+.bt-edit:hover{
+    background: #1f8391;
+}
+.bt-view{
+    background: #14c97e;
+}
+.bt-print{
+    background: #4C5B5C !important;
+}

@@ -1,0 +1,301 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');*/
+.prop-header{
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F8F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.prop-title i{
+    font-size: 2rem;
+}
+.prop-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prop-title p {
+   padding-left: 10px;
+}
+.p-subtitle{
+    font-size: 0.8rem;
+}
+.prop-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.card-propriedade{
+    width: 600px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 9px #ccc;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 40px;
+    line-height: 2rem;
+}
+.icon-prop{
+    
+    padding: 1rem;
+    background: #14c97e;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.cards-itens{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 6px;
+    position: relative;
+    padding: 40px;
+    color: #fff;
+}
+.card-number{
+    font-size: 2rem;
+}
+.card-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: #14c97e;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.card1{
+    background: linear-gradient(-145deg,#6672DE,#7E66E2);
+    
+}
+
+.card2{
+    background: linear-gradient(-145deg,#29C9ED,#1E80EB);
+    transition: 1s
+}
+
+
+.btn-success{
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+  border-radius: 6px;
+  border: 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prop-tables{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.atividades{
+    width: 80%;
+    height: 400px;
+    box-shadow: 1px 1px 6px #ccc;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    overflow:hidden;
+}
+.dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dados button{
+    border: 0px;
+    border-radius: 20px 20px 20px 20px;
+    background: #222422;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    padding-right: 30px;
+    padding-left:30px;
+}
+.ativ-header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 100%;
+    background: linear-gradient(-145deg,#29C9ED,#1E80EB);
+    border-radius: 6px 6px 0px 0px;
+    color: #fff;
+}
+.ativ-footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    padding: 10px;
+}
+.busca-input{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.maquinas{
+    width: 80%;
+    height: 400px;
+    padding-bottom: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 6px;
+    overflow-y: hidden;
+    margin-top: 50px;
+}
+
+.maquinas-option{
+    width: 100%;
+    padding: 10px;
+}
+.maquinas-option form{
+    width: 90% !important;
+}
+.maquinas-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.bt-option{
+    padding: 5px 7px;
+    font-size: 1.5rem;
+    color: #fff;
+    background:  #FF8600;
+    border: 0px;
+    border-radius: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.bt-option:hover{
+    background:#c78214;
+}
+.maquinas-header{
+    padding: 10px;
+    background: linear-gradient(-145deg,#6672DE,#7E66E2);
+    font-weight: bold;
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    color: #fff;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.busca-button-maquina{
+    font-size: 1.5rem;
+    padding: 5px 7px;
+    background: linear-gradient(-145deg,#6672DE,#7E66E2);
+    border: 0px solid;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.busca-button{
+    font-size: 1.5rem;
+    padding: 5px 7px;
+    background: linear-gradient(-145deg,#29C9ED,#1E80EB);
+    border: 0px solid;
+    border-radius: 6px;
+    color: #fff;
+}
+.busca-control{
+    width: 90%;
+    padding: 5px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top:0px;
+    border-bottom: 1px solid #1E80EB;
+ 
+}
+.maquina-busca{
+    width:70%;
+    padding:7px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top:0px;
+    border-bottom: 1px solid #6672DE;
+}
+.maquina-table{
+    padding-top: 20px;
+    padding-bottom: 40px !important;
+    height: calc(100% - 40px);
+    overflow-y: auto;
+}
+.table-maquinas{
+    padding-bottom: 40px;
+}
+.ativ-table{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80%;
+    overflow-y: auto;
+}
+.ativ-footer form{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    
+}
+.ativ-header button{
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 5px 10px;
+    background: #FF8600;
+    border:0px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .5s;
+}
+.ativ-header button:hover{
+  background:#c78214; 
+}
+
+/** MEDIAS QUERIES*/
+
+@media (max-width: 1023px){
+    .prop-cards{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: row;
+    }
+    .maquina-busca{
+        width: 90%;
+    }
+}

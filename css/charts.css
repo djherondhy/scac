@@ -1,0 +1,20 @@
+.graphControle{
+   width: 600px;
+   padding: 10px;
+}
+.charts{
+   width: 100%;
+   padding: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.chart-cards{
+   padding: 10px;
+}
+@media (max-width: 1023px){
+    .graphControle{
+        width: 400px;
+     }
+}

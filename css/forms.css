@@ -1,0 +1,70 @@
+.edit-form{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+.form-title{
+    font-size: 1.3rem;
+    font-weight: bold !important;
+}
+
+.input-text{
+    width: 60% !important;
+}
+.input-date{
+    width: 150px;
+    height: 50px;
+    border:0px solid;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    padding: 10px;
+}
+.select-input{
+    width: 200px;
+   
+    border:0px solid;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    padding: 10px;
+}
+.submit-bt{
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    background: #14c97e;
+    border: 0px solid;
+    margin-top: 10px;
+    align-content: flex-end;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s;
+}
+.submit-bt:hover{
+    background: #149b63;
+}
+
+.control-input{
+    width: 100% !important;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.control-input{
+    width: 90%;
+    margin: auto;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.control-input .input-text{
+    width: 200px;
+    border:0px solid;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    padding: 10px;
+}
+.control-input table .td-input{
+    width: 400px;
+}
+.control-input table td{
+    padding: 5px;
+}
